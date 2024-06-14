@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Management Software</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Flight Management Software</h1>
+    <div id="flightInfo">
+      <!-- Display flight information dynamically -->
+    </div>
+    <form id="controlPanel">
+      <label>Altitude: <input type="number" id="altitudeInput" min="0" max="10000"></label>
+      <label>Speed: <input type="number" id="speedInput" min="0" max="1000"></label>
+      <button type="button" id="updateButton">Update</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
